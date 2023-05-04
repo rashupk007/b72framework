@@ -24,6 +24,7 @@ public class ValidLogin extends BaseTest {
 		EnterTimeTrackPage homePage=new EnterTimeTrackPage(driver);
 		boolean result=homePage.verifyHomePageIsDisplayed(wait);
 		Assert.assertTrue(result);
+		
 	}
 	
 }
